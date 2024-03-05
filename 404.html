@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="img/favicon.png" rel="icon">
+    <title>Pratica 4</title>
+</head>
+
+<body>
+    <header class="container-fluid p-2 backdapagina">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Pratica 4</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#sessao1">Seção 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#galeria">GALERIA</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    +
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#post">POSTS</a></li>
+                                    <li><a class="dropdown-item" href="#texto">TEXTOS</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slide-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slide3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+
+    <section class="container-fluid p-2 corSessao1" id="sessao1">
+        <h1 class="fw-bold text-center text-light">Seção 1</h1>
+        <div class="row">
+            <div class="col-6 text-light text-center fw-semibold p-3">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in erat posuere urna ornare faucibus.
+                    Vivamus auctor felis lacus, sit amet suscipit felis lacinia vitae. Nulla scelerisque vulputate
+                    lorem,
+                    non molestie leo vulputate sed. Maecenas velit tellus, blandit nec lobortis ut, convallis ac erat.
+                    Sed
+                    vitae aliquam nisl, in aliquam felis. Nam vel efficitur nisi. Donec elementum lorem a euismod
+                    venenatis.
+                    Suspendisse eleifend finibus consequat. Integer auctor fringilla dolor eget aliquam. Cras lobortis
+                    libero non felis dapibus facilisis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    Suspendisse vehicula mi ut lacus rhoncus viverra. Aenean ullamcorper sem arcu, vitae scelerisque
+                    eros
+                    facilisis non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                    egestas. Quisque sapien mi, convallis et nisi sed, gravida auctor tellus. Donec enim metus,
+                    ultricies
+                    quis turpis sed, volutpat rutrum leo.
+                    <br>
+                    Cras molestie semper libero id convallis. Maecenas imperdiet iaculis turpis. Nam nec sapien at
+                    lectus
+                    mattis cursus vel quis magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                    per
+                    inceptos himenaeos. Sed non gravida orci. Proin interdum eu leo vel commodo. Nunc ultrices est
+                    nulla.
+                    Nam quis tortor id lectus pharetra iaculis. Curabitur eget eros ut risus tempor ultricies at
+                    convallis
+                    ex. Vivamus a interdum eros, non euismod magna. Etiam ac elit et lorem bibendum sodales quis vel
+                    risus.
+                    In pharetra, diam a egestas scelerisque, enim purus congue nulla, ut gravida libero lectus sed
+                    magna.
+                </p>
+            </div>
+            <div class="col-6 p-3">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/slide1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container-fluid p-3 backdapagina" id="galeria" >
+        <h1 class="text-light fw-bold text-center p-3" >GALERIA</h1>
+
+        <div class="row">
+            <div class="col-3 p-0">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/galeria/g1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay"></div>
+                </div>
+            </div>
+            <div class="col-3 p-0">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/galeria/g2.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay"></div>
+                </div>
+            </div>
+            <div class="col-3 p-0 ">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/galeria/g3.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay"></div>
+                </div>
+            </div>
+            <div class="col-3 p-0">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/galeria/g4.jpg " class="card-img" alt="...">
+                    <div class="card-img-overlay"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3 p-0">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/galeria/g5.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay"></div>
+                </div>
+            </div>
+            <div class="col-3 p-0">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/galeria/g6.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay"></div>
+                </div>
+            </div>
+            <div class="col-3 p-0 ">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/galeria/g7.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay"></div>
+                </div>
+            </div>
+            <div class="col-3 p-0">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/galeria/g8.jpg " class="card-img" alt="...">
+                    <div class="card-img-overlay"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-3 p-0">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/galeria/g9.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay"></div>
+                </div>
+            </div>
+            <div class="col-3 p-0">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/galeria/g10.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay"></div>
+                </div>
+            </div>
+            <div class="col-3 p-0 ">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/galeria/g11.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay"></div>
+                </div>
+            </div>
+            <div class="col-3 p-0">
+                <div class="p-0 card text-bg-dark">
+                    <img src="img/galeria/g12.jpg " class="card-img" alt="...">
+                    <div class="card-img-overlay"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class=" container-fluid p-3 corSessao1">
+
+        <h1 class="text-light fw-bold text-center p-3" id="post" >POSTS</h1>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/galeria/g7.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img src="img/galeria/g7.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      <small>Earth</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      <small>3d</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/galeria/p2.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      <small>Pakistan</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      <small>4d</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/galeria/g9.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      <small>California</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      <small>5d</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="container-fluid p-5 backdapagina">
+        <h1 class="text-light fw-bold text-center p-3" id="texto" >TEXTOS</h1>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col text-light">
+              <h3 class="fs-2 text-light">Nullam et magna nulla</h3>
+              <p>Cras enim purus, posuere ac turpis vel, fringilla viverra nisl. Maecenas vitae aliquam diam. Donec semper purus ut leo hendrerit malesuada.</p>
+              <a href="#" class="icon-link" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                Continuar lendo
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="feature col text-light">
+              <h3 class="fs-2 text-light">Praesent fermentum</h3>
+              <p>Donec interdum gravida nisi sed luctus. Suspendisse sed justo nec mi convallis faucibus. Etiam a consequat est.</p>
+              <a href="#" class="icon-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Continuar lendo
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="feature col text-light">
+              <h3 class="fs-2 text-light">Nam venenatis</h3>
+              <p>PNulla suscipit eros a velit fringilla placerat. Sed justo justo, condimentum eget nibh malesuada, tincidunt dictum justo.</p>
+              <a href="#" class="icon-link" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                Continuar lendo
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+          </div>
+    </section>
+
+    <footer class="container-fluid card-footer text-center fw-bold text-light p-2 text-bg-dark">
+        <p>Desenvolvido por João Victor</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 text-center" id="exampleModalLabel text-dark">Titulo</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan est vel neque volutpat posuere. Cras venenatis scelerisque suscipit. In eget augue sed leo suscipit sodales sit amet eu eros. Fusce iaculis vestibulum metus et posuere. Etiam fermentum, mi vitae aliquet euismod, ante nisi mollis elit, vel mattis purus tellus vel risus. Aliquam vitae massa non urna accumsan viverra ac ut elit. Praesent vel sapien sed arcu varius volutpat sit amet eget erat. Curabitur quis luctus dolor. Aliquam vitae arcu viverra, lacinia ipsum quis, efficitur mauris. Sed ut interdum enim, id posuere erat. Integer ac velit at diam fermentum vulputate dapibus sed lorem. Duis euismod consequat velit quis tincidunt. Nulla facilisi.
+
+            Morbi id mollis tortor, sed ultricies tellus. Nulla facilisi. Ut dignissim rhoncus ornare. Donec ipsum velit, laoreet non justo tempus, aliquet iaculis nunc. Nulla nisl arcu, egestas sed vestibulum eu, euismod vel lectus. Donec malesuada aliquam leo, sed porttitor nisi rutrum nec. Mauris euismod vitae leo quis gravida. Nullam et magna nulla. Nullam tristique ultricies nunc vel vulputate. Praesent vitae ipsum ultricies, suscipit ipsum at, egestas augue. Etiam vulputate pretium ex sed vulputate. Cras enim purus, posuere ac turpis vel, fringilla viverra nisl. Maecenas vitae aliquam diam. Donec semper purus ut leo hendrerit malesuada. Nulla risus lorem, fermentum ut felis dictum, tincidunt condimentum odio. Nullam neque quam, iaculis et tempor sed, ornare vitae leo.
+            
+            Praesent fermentum lorem arcu. Integer egestas magna in massa commodo dignissim. Vestibulum eu lacus nisi. Cras mollis, dolor vitae ornare imperdiet, eros leo dapibus urna, id vulputate arcu nulla vitae felis. Nunc tempor lorem vitae fermentum tempus. Fusce vestibulum feugiat nibh a tristique. Nulla tristique, lectus non ultrices rhoncus, mi neque sodales lectus, non pellentesque erat purus in nunc. Donec interdum gravida nisi sed luctus. Suspendisse sed justo nec mi convallis faucibus. Etiam a consequat est.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">voltar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 text-center" id="exampleModalLabel text-dark">Titulo</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan est vel neque volutpat posuere. Cras venenatis scelerisque suscipit. In eget augue sed leo suscipit sodales sit amet eu eros. Fusce iaculis vestibulum metus et posuere. Etiam fermentum, mi vitae aliquet euismod, ante nisi mollis elit, vel mattis purus tellus vel risus. Aliquam vitae massa non urna accumsan viverra ac ut elit. Praesent vel sapien sed arcu varius volutpat sit amet eget erat. Curabitur quis luctus dolor. Aliquam vitae arcu viverra, lacinia ipsum quis, efficitur mauris. Sed ut interdum enim, id posuere erat. Integer ac velit at diam fermentum vulputate dapibus sed lorem. Duis euismod consequat velit quis tincidunt. Nulla facilisi.
+
+            Morbi id mollis tortor, sed ultricies tellus. Nulla facilisi. Ut dignissim rhoncus ornare. Donec ipsum velit, laoreet non justo tempus, aliquet iaculis nunc. Nulla nisl arcu, egestas sed vestibulum eu, euismod vel lectus. Donec malesuada aliquam leo, sed porttitor nisi rutrum nec. Mauris euismod vitae leo quis gravida. Nullam et magna nulla. Nullam tristique ultricies nunc vel vulputate. Praesent vitae ipsum ultricies, suscipit ipsum at, egestas augue. Etiam vulputate pretium ex sed vulputate. Cras enim purus, posuere ac turpis vel, fringilla viverra nisl. Maecenas vitae aliquam diam. Donec semper purus ut leo hendrerit malesuada. Nulla risus lorem, fermentum ut felis dictum, tincidunt condimentum odio. Nullam neque quam, iaculis et tempor sed, ornare vitae leo.
+            
+            Praesent fermentum lorem arcu. Integer egestas magna in massa commodo dignissim. Vestibulum eu lacus nisi. Cras mollis, dolor vitae ornare imperdiet, eros leo dapibus urna, id vulputate arcu nulla vitae felis. Nunc tempor lorem vitae fermentum tempus. Fusce vestibulum feugiat nibh a tristique. Nulla tristique, lectus non ultrices rhoncus, mi neque sodales lectus, non pellentesque erat purus in nunc. Donec interdum gravida nisi sed luctus. Suspendisse sed justo nec mi convallis faucibus. Etiam a consequat est.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">voltar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 text-center" id="exampleModalLabel text-dark">Titulo</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan est vel neque volutpat posuere. Cras venenatis scelerisque suscipit. In eget augue sed leo suscipit sodales sit amet eu eros. Fusce iaculis vestibulum metus et posuere. Etiam fermentum, mi vitae aliquet euismod, ante nisi mollis elit, vel mattis purus tellus vel risus. Aliquam vitae massa non urna accumsan viverra ac ut elit. Praesent vel sapien sed arcu varius volutpat sit amet eget erat. Curabitur quis luctus dolor. Aliquam vitae arcu viverra, lacinia ipsum quis, efficitur mauris. Sed ut interdum enim, id posuere erat. Integer ac velit at diam fermentum vulputate dapibus sed lorem. Duis euismod consequat velit quis tincidunt. Nulla facilisi.
+
+            Morbi id mollis tortor, sed ultricies tellus. Nulla facilisi. Ut dignissim rhoncus ornare. Donec ipsum velit, laoreet non justo tempus, aliquet iaculis nunc. Nulla nisl arcu, egestas sed vestibulum eu, euismod vel lectus. Donec malesuada aliquam leo, sed porttitor nisi rutrum nec. Mauris euismod vitae leo quis gravida. Nullam et magna nulla. Nullam tristique ultricies nunc vel vulputate. Praesent vitae ipsum ultricies, suscipit ipsum at, egestas augue. Etiam vulputate pretium ex sed vulputate. Cras enim purus, posuere ac turpis vel, fringilla viverra nisl. Maecenas vitae aliquam diam. Donec semper purus ut leo hendrerit malesuada. Nulla risus lorem, fermentum ut felis dictum, tincidunt condimentum odio. Nullam neque quam, iaculis et tempor sed, ornare vitae leo.
+            
+            Praesent fermentum lorem arcu. Integer egestas magna in massa commodo dignissim. Vestibulum eu lacus nisi. Cras mollis, dolor vitae ornare imperdiet, eros leo dapibus urna, id vulputate arcu nulla vitae felis. Nunc tempor lorem vitae fermentum tempus. Fusce vestibulum feugiat nibh a tristique. Nulla tristique, lectus non ultrices rhoncus, mi neque sodales lectus, non pellentesque erat purus in nunc. Donec interdum gravida nisi sed luctus. Suspendisse sed justo nec mi convallis faucibus. Etiam a consequat est.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">voltar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</html>
